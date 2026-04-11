@@ -18,8 +18,22 @@ body{
 
 }
 
-suggestions{
+.suggestions{
     width: 400px;
     height: 100vh;
     
+}
+.profile{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    overflow: hidden;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

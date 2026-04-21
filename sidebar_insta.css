@@ -19,7 +19,7 @@ body{
     height: 100vh;
     display: grid;
     align-items: center;
-    background-color: rgb(5, 22, 247);
+    background-color: rgb(238, 239, 245);
     flex-direction: column;
     /* justify-content: space-evenly; */
     align-items: center;
@@ -58,7 +58,7 @@ body{
     /* this is from post section for demo */
     width: 600px 1500;
     height: 730vh;
-    background-color: rgb(13, 218, 218);
+    background-color: rgb(245, 249, 249);
     padding: 25%;
     display: flex;
     align-self:center;
@@ -70,10 +70,19 @@ body{
  width: 383px;
  height: 100vh; 
  padding : 0px 65px;
- background-color: salmon;    
+ background-color: rgb(252, 250, 250);    
  display: flex;
  align-self: center;
  justify-content: center;
-
-
+}
+.suggestions-container{
+    width: 200px;;
+    padding: 20px;
+    background-color: rgb(245, 240, 240);
+}
+.profile-picture-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
 }

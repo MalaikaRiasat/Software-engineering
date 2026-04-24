@@ -1,27 +1,36 @@
 body{
-    padding: 10px;
+    padding: 0;
     margin: 0;
-    background-color: rgb(249, 248, 248);
+    background-color: rgb(177, 236, 106);
     display: flex;
 }
 
 .instagram_body{
     
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
-    background-color: rgb(247, 252, 251);
+    /* background-color: rgb(9, 250, 202); */
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.sidebar-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
 .sidebar_insta{
-    width: 200px;
+    width: 100px;
     height: 100vh;
     display: grid;
-    align-items: center;
-    background-color: rgb(238, 239, 245);
+    background-color: rgb(7, 41, 236);
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     align-items: center;
     padding: 0% 10px;
 } 
@@ -56,9 +65,11 @@ body{
 
 .post-section{
     /* this is from post section for demo */
-    width: 600px 1500;
-    height: 730vh;
-    background-color: rgb(245, 249, 249);
+    /* width: 600px 1500; */
+    width: 100%;
+    /* height: 730vh;*/
+    height: 500px;
+    background-color: rgb(5, 243, 243);
     padding: 25%;
     display: flex;
     align-self:center;
@@ -70,16 +81,12 @@ body{
  width: 383px;
  height: 100vh; 
  padding : 0px 65px;
- background-color: rgb(252, 250, 250);    
+ background-color: rgb(219, 18, 18);    
  display: flex;
  align-self: center;
  justify-content: center;
 }
-.suggestions-container{
-    width: 200px;;
-    padding: 20px;
-    background-color: rgb(245, 240, 240);
-}
+
 .profile-picture-container{
     display: flex;
     justify-content: space-between;

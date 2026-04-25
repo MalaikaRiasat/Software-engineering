@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(177, 236, 106);
+    background-color: rgb(252, 253, 251);
     display: flex;
 }
 
@@ -28,7 +28,7 @@ body{
     width: 100px;
     height: 100vh;
     display: grid;
-    background-color: rgb(7, 41, 236);
+    background-color: rgb(255, 255, 255);
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -66,28 +66,30 @@ body{
 .post-section{
     width: 100%;
     height: 500px;
-    background-color: rgb(243, 168, 5);
-    padding: 25%;
+    background-color: rgb(239, 12, 12);
+    margin: 25%;
     display: flex;
+    flex-direction: column; 
 
-} 
-
+}  
 .suggestion-container{
-    width: 100vw;
+    width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
 }
 .suggestion-section{
-    width: 370px;
-    height: 100%;
+    width: 387px;
+    background-color: salmon;
+    height: 730px;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     align-items: start;
     justify-content: start;
     gap: 80%;
+    padding: 0px 0px 0px 60px ;
 }
 
 .profils-section{
@@ -186,6 +188,6 @@ body{
     font-size: 16px;
 }
 .copywrite{
-    color: #6A717A;
+    color: #61666c;
     font-size: 16px;
 }

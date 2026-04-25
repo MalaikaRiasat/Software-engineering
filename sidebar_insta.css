@@ -32,7 +32,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0% 10px;
+    /* padding: 0% 10px; */
 } 
 .profile-picture-container{
     width: 24px;
@@ -64,57 +64,55 @@ body{
 
 
 .post-section{
-    /* this is from post section for demo */
-    /* width: 600px 1500; */
     width: 100%;
-    /* height: 730vh;*/
     height: 500px;
     background-color: rgb(243, 168, 5);
     padding: 25%;
     display: flex;
-    align-self:center;
 
 } 
 
 .suggestion-container{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(5, 236, 236);
+    width: 100vw;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .suggestion-section{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(5, 236, 236);
+    width: 370px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: start;
+    justify-content: start;
+    gap: 80%;
 }
 
 .profils-section{
     width: 100%;
-    height: 100vh;
-    background-color: rgb(5, 236, 236);
+    height: 440px;
+    gap: 10px;
 }
 .profile-horizontal-card{
     width: 100%;
     height: 100vh;
-    background-color: rgb(5, 236, 236);
-}
-.suggestion-profile-picture-container{
-    width: 24px;
-    height: 25px;
-    /* background-position: center; */
     display: flex;
-    border-radius: 100%;
-    justify-content: center;
+    padding: 10px;
+    justify-content:space-between;
     align-items: center;
+}
+
+.suggestion-profile-picture-container{
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
     overflow: hidden;
 }
 .suggestion-profile-picture{
     width: 100%;
     height: 100%;
-    gap : 10px;
-    /* margin: 10px;     */
 }
 .username-and-name-container{
     display: flex;
@@ -132,43 +130,62 @@ body{
     color: #6A717A;
 }
 .follow-button{
-    width: 60px;
-    height: 30px;
-    color: rgb(21, 138, 248);
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: #4150F7;
+    text-decoration: none;
+    font-size: 16px;
     font-weight: 600;
 }
+
 .profile-name-picture-container{
     display: flex;
     gap: 10px;
-    align-items: center;
 }
+
 .all-suggestions-container{
     display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 19px;
+    padding: 4px 16px;
 }
-.text-container-of-see-all{
-    display: block;
 
+
+.text-container-of-see-all{
+    width: 100% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 .see-all-suggestions{
-    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
 }
 .suggestions-for-you{
-    display: block;
+    color: #0C1014;
+    font-weight: 550;
+    font-size: 18px;
 }
 .links-footer-section{
-    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .footer-dot{
-    display: block;
+    color: #6A717A;
+    font-size: 16px;
 }
 .footer-link{
-    display: block;
+    text-decoration: none;
+    color: #6A717A;
+    font-size: 16px;
 }
 .copywrite{
-    display: flex;
+    color: #6A717A;
+    font-size: 16px;
 }

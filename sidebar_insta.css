@@ -78,6 +78,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: start;
+    flex-direction: column;
 }
 .suggestion-section{
     width: 387px;
@@ -92,7 +93,7 @@ body{
     padding: 0px 0px 0px 60px ;
 }
 
-.profils-section{
+.profiles-section{
     width: 100%;
     height: 440px;
     gap: 10px;

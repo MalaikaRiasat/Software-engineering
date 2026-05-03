@@ -60,7 +60,21 @@ body{
     height: 100%;
     gap : 10px;
     /* margin: 10px;     */
+}
+.side-bar-mid-items{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 45px;
+
 } 
+.sidebar-footer{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+}
 
 
 
@@ -69,7 +83,7 @@ body{
 .posts-section{
     width: 630px ;
     height: 100%;
-    display: flex;
+    /* display: flex; */
     flex-direction: column; 
     /* background-color: rgb(20, 173, 234); */
  }
@@ -118,13 +132,23 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    /* gap: 40px; */
-    /* padding: 20px 0px; */
-    /* background-color: #c82af8; */
+    justify-content: flex-start;
+    /* overflow-y: auto; */
+}
+.post-profile-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+.button{
+    /* overflow: hidden; */
+    box-shadow: none;
+    border: none;
 }
 .post-card{
-    width: 430px;
+    width: 410px;
     height: 48px;
     display: flex;
     flex-direction: row;
@@ -172,6 +196,13 @@ body{
     justify-content: space-between;
     gap: 10px;
 }
+.like-comment-repost-share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
 .post-likes-comments-container{
     width: 450px;
     height: 40px;
@@ -180,7 +211,12 @@ body{
     align-items: center;
     margin-left: 90px;
     gap: 20px;
+    flex-direction: row;
 }
+.post-save-container{
+    margin-left: 55%;
+}
+
 
 
 

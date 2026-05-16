@@ -12,3 +12,6 @@ console.log(age);
 
 //var
 // global variable
+var name= "ali";
+console.log(name);
+//function scope

@@ -2,7 +2,7 @@
 // console.log (school);
 
 
-//pop
+// pop
 // let school=["student","teachers"];
 // school.pop();
 // console.log(school);  //last remove

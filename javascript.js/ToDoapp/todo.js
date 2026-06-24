@@ -3,12 +3,20 @@ let btnbox= document.getElementById("addStudent");
 let container= document.getElementById("studentContainer");
 
 btnbox.addEventListener("click",function(){
+    if(inputbox.value===""){
+        alert("Erroe!plz add student");
+        return;
+    }
 
     let student = document.createElement("div");
-    student.textContent = inputbox.value;
+    // student.textContent = inputbox.value;
+    
+    let nameSpan=document.createElement("span");
+    nameSpan.textContent= inputbox.value;
 
     let deletbtn = document.createElement("button");
     deletbtn.textContent="Delete";
+
     deletbtn.addEventListener("click",function(){
         student.remove();
     });
@@ -20,11 +28,14 @@ btnbox.addEventListener("click",function(){
         let updateName=prompt("Enter new name");
         nameSpan.textContent= updateName;
     });
+    
 
     container.appendChild(student);  
     inputbox.value="";
     console.log(inputbox.value);  
-    student.appendChild(deletbtn);
+
+    student.appendChild(nameSpan);  
+    student.appendChild(deletbtn);  
     student.appendChild(editbtn);
-    student.appendChild(nameSpan);
+
 });

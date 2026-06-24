@@ -9,14 +9,22 @@ btnbox.addEventListener("click",function(){
 
     let deletbtn = document.createElement("button");
     deletbtn.textContent="Delete";
-
     deletbtn.addEventListener("click",function(){
         student.remove();
     });
 
-    student.appendChild(deletbtn);
-    container.appendChild(student)
-    console.log(inputbox.value);
-    inputbox.value="";
+    let editbtn = document.createElement("button");
+    editbtn.textContent="Edit";
 
+    editbtn.addEventListener("click", function(){
+        let updateName=prompt("Enter new name");
+        nameSpan.textContent= updateName;
+    });
+
+    container.appendChild(student);  
+    inputbox.value="";
+    console.log(inputbox.value);  
+    student.appendChild(deletbtn);
+    student.appendChild(editbtn);
+    student.appendChild(nameSpan);
 });

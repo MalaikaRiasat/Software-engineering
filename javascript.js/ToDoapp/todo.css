@@ -19,7 +19,40 @@ input{
     cursor: pointer;
 }
 
-#studentcontainer{
-    margin-top: 20px;
-    background-color: black;
+#studentContainer{
+    margin-top: 10px;
+}
+#studentContainer span{
+    flex: 1;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+#studentContainer div{
+    background-color: rgb(6, 201, 245);
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-wrap: break-word;
+    box-shadow: 5px 5px 10px 0px rgba(8, 219, 242, 0.5);
+}
+.deleteBtn{
+    background-color: rgb(167, 10, 10);
+    color: rgb(246, 238, 238);
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.editBtn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-left: 5px;
 }

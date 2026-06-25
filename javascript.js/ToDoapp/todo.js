@@ -16,6 +16,8 @@ btnbox.addEventListener("click",function(){
 
     let deletbtn = document.createElement("button");
     deletbtn.textContent="Delete";
+    deletbtn.classList.add("deleteBtn");
+
 
     deletbtn.addEventListener("click",function(){
         student.remove();
@@ -23,6 +25,7 @@ btnbox.addEventListener("click",function(){
 
     let editbtn = document.createElement("button");
     editbtn.textContent="Edit";
+    editbtn.classList.add("editBtn");
 
     editbtn.addEventListener("click", function(){
         let updateName=prompt("Enter new name");

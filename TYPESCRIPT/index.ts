@@ -8,3 +8,4 @@ console.log(college);
 //number
 let age:number=21;
 console.log(age);
+

@@ -15,3 +15,7 @@ console.log(age);
 var name= "ali";
 console.log(name);
 //function scope
+
+
+let n=25;
+console.log(typeof(n));

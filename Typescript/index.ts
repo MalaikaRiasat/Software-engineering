@@ -9,7 +9,6 @@ const user:User ={
     class: 13,
     phoneNO:"028918"
 } 
-
 export{
     user
 }

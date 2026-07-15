@@ -9,13 +9,11 @@ let age = 20;
 age = 21
 console.log(age);
 
-
 //var
 // global variable
 var name= "ali";
 console.log(name);
 //function scope
-
 
 let n=25;
 console.log(typeof(n));

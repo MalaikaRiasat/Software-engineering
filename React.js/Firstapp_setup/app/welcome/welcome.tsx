@@ -6,7 +6,7 @@ export function Welcome() {
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
         <header className="flex flex-col items-center gap-9">
-          <div className="w-[500px] max-w-[100vw] p-4">
+          <div className="w-125 max-w-[100vw] p-4">
             <img
               src={logoLight}
               alt="React Router"
@@ -46,6 +46,7 @@ export function Welcome() {
   );
 }
 
+
 const resources = [
   {
     href: "https://reactrouter.com/docs",
@@ -69,7 +70,7 @@ const resources = [
   },
   {
     href: "https://rmx.as/discord",
-    text: "Join Discord",
+    text: "React 1st project",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

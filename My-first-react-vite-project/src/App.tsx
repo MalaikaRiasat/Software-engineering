@@ -1,15 +1,23 @@
-import './App.css'
+import { useState } from "react";
+import Navbar from "./components/Navbar";
+import NotificationsPage from "./components/NotificationsPage";
+import NetworkPage from "./components/NetworkPage";
+
+export type TabKey = "notifications" | "network";
 
 function App() {
+  const [activeTab, setActiveTab] = useState<TabKey>("notifications");
+
   return (
-    <div className="w-full h-full flex ">
-      <div className="flex col p-2 rounded-2xl shadow-3xl"></div>
-      <span className="text-red bg-blue-300 text-2xl rounded-2xl p-2"></span>
-      counter
+    <div className="min-h-screen bg-gray-100">
+      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+
+      <main className="max-w-3xl mx-auto mt-6 px-4">
+        {activeTab === "notifications" && <NotificationsPage />}
+        {activeTab === "network" && <NetworkPage />}
+      </main>
     </div>
- 
-  )
-  
+  );
 }
 
-export default App
+export default App;

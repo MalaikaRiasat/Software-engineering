@@ -5,7 +5,7 @@ type Connection = {
 };
 
 const suggestions: Connection[] = [
-  { id: 1, name: "Hassan Raza", title: "Software Engineering Student, GCUF" },
+  { id: 1, name: "", title: "Software Engineering Student, GCUF" },
   { id: 2, name: "Ayesha Khan", title: "Frontend Developer" },
   { id: 3, name: "Bilal Ahmed", title: "Backend Developer, Node.js" },
 ];
@@ -27,7 +27,7 @@ export default function NetworkPage() {
             <button className="border border-blue-600 text-blue-600 rounded-full px-4 py-1 text-xs font-medium hover:bg-blue-50">
               Connect
             </button>
-            
+
           </div>
         ))}
       </div>

@@ -27,6 +27,7 @@ export default function NetworkPage() {
             <button className="border border-blue-600 text-blue-600 rounded-full px-4 py-1 text-xs font-medium hover:bg-blue-50">
               Connect
             </button>
+            
           </div>
         ))}
       </div>

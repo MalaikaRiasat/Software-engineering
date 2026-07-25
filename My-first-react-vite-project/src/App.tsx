@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import NotificationsPage from "./components/NotificationsPage";
-import NetworkPage from "./components/NetworkPage";
+// import NetworkPage from "./components/NetworkPage";
 
 export type TabKey = "notifications" | "network";
 
@@ -13,7 +13,7 @@ function App() {
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       <main className="max-w-3xl mx-auto mt-6 px-4">
         {activeTab === "notifications" && <NotificationsPage />}
-        {activeTab === "network" && <NetworkPage />}
+        {/* {activeTab === "network" && <NetworkPage />} */}
       </main>
 
     </div>

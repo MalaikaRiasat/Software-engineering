@@ -11,8 +11,8 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
       <div className="max-w-3xl mx-auto flex items-center justify-between px-4 h-14">
         <span className="text-blue-600 font-bold text-xl">in.</span>
 
-        <nav className="flex gap-6">
-          <button
+        <nav className="bg-white flex gap-6">
+          <button 
             onClick={() => setActiveTab("network")}
             className={`text-sm ${
               activeTab === "network" ? "text-blue-600 font-semibold" : "text-gray-500"

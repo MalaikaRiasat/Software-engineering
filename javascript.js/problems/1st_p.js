@@ -12,11 +12,11 @@
 // Try karo, code likh kar bhejo — main check kar dunga!
 
 
-let marks=69;
+let marks="69";
 
 if(typeof marks !== "number"){
     console.log("Marks must be numbers!");
-    console.log("marks=",typeof marks);
+    console.log("Type of marks now=",typeof marks);
 }
 else if(marks>=90){
     console.log("Grade:A");

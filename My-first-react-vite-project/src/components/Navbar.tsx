@@ -4,8 +4,6 @@ type NavbarProps = {
   activeTab: TabKey;
   setActiveTab: (tab: TabKey) => void;
 };
-
-
 export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
   return (
     <header className="bg-white shadow sticky top-0 z-10">
@@ -21,7 +19,6 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
           >
             Network
           </button>
-
           <button
             onClick={() => setActiveTab("notifications")}
             className={`text-sm ${

@@ -27,8 +27,32 @@ else{
 // p2
 
 let hasMembership = true;
-let feePaid = true;
+let feePaid = ture;
 
 if (hasMembership && feePaid){
-    
+    console.log("Wellcome to the gym");
+}
+else{
+    console.log("Access denied!");
+}
+
+
+
+
+// && — Problem 3
+// Ek exam eligibility checker: student exam de sakta hai agar:
+
+// attendance (number, percentage) 75 ya us se zyada ho, aur
+// feesCleared (boolean) true ho
+
+// Dono sahi → "Eligible for exam", warna → "Not eligible for exam"
+
+let attendance = true;
+let feesCleared = true;
+
+if (attendance && feesCleared){
+    console.log("Eligible for exam");
+}
+else{
+    console.log("Not eligible for exam");
 }

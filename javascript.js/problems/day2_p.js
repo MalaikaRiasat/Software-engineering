@@ -29,4 +29,6 @@ else{
 let hasMembership = true;
 let feePaid = true;
 
-
+if (hasMembership && feePaid){
+    
+}

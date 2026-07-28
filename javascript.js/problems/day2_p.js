@@ -199,4 +199,5 @@ else{
 // Sab 5 try karo, code bhejo ek ek karke ya sab ikatthe — jaisa aapko sahoolat ho. 
 // Movie ticket wala problem (pichla message) bhi abhi baaki hai agar wo bhi karna ho to alag se bata dena.
 
-let hasReservation 
+let hasReservation = true;
+

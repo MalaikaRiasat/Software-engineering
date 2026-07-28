@@ -26,4 +26,7 @@ else{
 // Dono true → "Welcome to the gym", warna → "Access denied"
 // p2
 
-let hasMembership = true
+let hasMembership = true;
+let feePaid = true;
+
+

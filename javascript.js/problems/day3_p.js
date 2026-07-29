@@ -2,6 +2,7 @@
 // color variable ("red", "yellow", "green") ke hisaab se print karo:
 //  red → "Stop", yellow → "Get ready", green → "Go", koi aur value → "Invalid color"
 
+let Traffic_light = green;
 
 
 

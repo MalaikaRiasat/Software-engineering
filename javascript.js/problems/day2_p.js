@@ -174,7 +174,7 @@ else{
 
 let username;
 let password;
-let isAccountLocked=true;
+let isAccountLocked=false;
 
 if(isAccountLocked){
     console.log("Account locked, contact support");
@@ -200,4 +200,16 @@ else{
 // Movie ticket wala problem (pichla message) bhi abhi baaki hai agar wo bhi karna ho to alag se bata dena.
 
 let hasReservation = true;
+let isVIP = false;
+let tableAvailable = false;
+
+if (isVIP || hasReservation && tableAvailable){
+    console.log("Seated immediately");
+}
+else if(tableAvailable && !hasReservation){
+    console.log("Seated with wait");
+}
+else{
+    console.log("No seating available");
+}
 

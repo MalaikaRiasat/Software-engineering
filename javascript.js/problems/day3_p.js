@@ -2,36 +2,66 @@
 // color variable ("red", "yellow", "green") ke hisaab se print karo:
 //  red → "Stop", yellow → "Get ready", green → "Go", koi aur value → "Invalid color"
 
-let Traffic_light = green;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let Traffic_light = "green";
+switch (Traffic_light){
+    case "red":
+        console.log("Stop");
+        break;
+    case "yellow":
+        console.log("Get ready");
+        break;
+    case "green":
+        console.log("Go");
+        break;
+    default:
+        console.log("Invalid color");
+        break;
+}
 
 // 2. Simple Calculator
 // operator ("+", "-", "*", "/") aur do numbers a, b lo. 
 // Switch se operation perform karo aur result print karo. Invalid operator pe → "Invalid operator"
 
+let a=4;
+let b=3;
+let operator= "*";
+switch (operator) {
+    case "+":
+        console.log(a+b);
+        break;
+    case "/":
+        console.log(a/b);
+        break;
+    case "-":
+        console.log(a-b);
+        break;    
+    case "*":
+        console.log(a*b);
+        break;
+    default:
+        break;
+}
+
 // 3. Day Name (Number to Day)
 // dayNumber (1-7) ke hisaab se din ka naam print karo (1 → "Monday" ... 7 → "Sunday").
 //  Invalid number pe → "Invalid day number"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 4. Grade to Remarks
 // grade ("A", "B", "C", "D", "F") ke hisaab se remark print karo: 

@@ -39,6 +39,7 @@ switch (operator) {
         console.log(a*b);
         break;
     default:
+        console.log("Must be enter arithmtic operater");
         break;
 }
 
@@ -51,10 +52,10 @@ switch (dayNumber) {
         console.log("Monday");
         break;
     case 2:
-        console.log("Tusday");
+        console.log("Tuesday");
         break;
     case 3:
-        console.log("Wensday");
+        console.log("Wednesday");
         
         break;
     case 4:
@@ -65,7 +66,7 @@ switch (dayNumber) {
         console.log("Friday");
         break;
     case 6:
-        console.log("Stuarday");
+        console.log("Saturday");
         
         break;
     case 7:
@@ -96,11 +97,11 @@ switch (grade) {
     case "D":
         console.log("Below Average");
         break;
-    case "E":
-        console.log("below")
+    case "F":
+        console.log("Fail")
         break;            
     default:
-        console.log("fail")
+        console.log("invalid grade")
         break;
 }
 
@@ -122,15 +123,64 @@ switch (vehicleType) {
         console.log("Fare: Rs.200");
         break;
     default:
-        console("No Fare");
+        console.log("unknown vehicle type");
         break;
 }
 
 
 // 6. Month to Season (Intentional Fall-through required)
 // month (1-12) lo aur season print karo — December, January, February → "Winter"; 
-// March, April, May → "Spring"; June, July, August → "Summer"; September, October, November → "Autumn". (Jaisa upar wala example tha, cases ko bina break ke group karo)
+// March, April, May → "Spring"; June, July, August → "Summer"; September, October, November → "Autumn".
+//  (Jaisa upar wala example tha, cases ko bina break ke group karo)
+
+let month =5;
+
+switch (month) {
+    case 12 :
+    case 1:
+    case 2:
+        console.log("Winter");    
+        break;
+    case 3 :
+    case 4 :
+    case 5:
+        console.log("spring");    
+        break;
+    case 6 :
+    case 7 :
+    case 8:
+        console.log("summer");    
+        break;
+    case 9 :
+    case 10 :
+    case 11:
+        console.log("Autumn");    
+        break;    
+    default:
+        console.log("must be enter a velid month")
+        break;
+}
+
 
 // 7. HTTP Status Code Checker
 // statusCode (jaise 200, 404, 500, 301) lo aur uska matlab print karo:
 //  200 → "OK", 404 → "Not Found", 500 → "Internal Server Error", 301 → "Redirect", default → "Unknown status code"
+
+let statusCode = 500;
+switch (statusCode) {
+    case 200:
+        console.log("ok");
+        break;
+    case 404:
+        console.log("Not");
+        break;
+    case 500:
+        console.log("Internal");
+        break;
+    case 301:
+        console.log("Redirect");
+        break;        
+    default:
+        console.log("Unknown status code")
+        break;
+}

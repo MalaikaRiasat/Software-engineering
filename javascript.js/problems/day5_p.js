@@ -45,54 +45,71 @@
 
 //functions
 
-function sayhellow(){
-    console.log("Hallow");
-}
+// function sayhellow(){
+//     console.log("Hallow");
+// }
 
-sayhellow();
+// sayhellow();
 
-function study(){
-    console.log("i am studing javascript daily");
-}
-study();
-
-
-
-// jab mujy koi part reuse karna pary ga to ma usy ak function bana ka reuse karun gi multi time
+// function study(){
+//     console.log("i am studing javascript daily");
+// }
+// study();
 
 
 
-function student(name){
-    console.log("Hellow:" + name);
-
-}
-
-student("Malaika");
-student("Aima");
-student("Amina");
-student("Emaan");
+// // jab mujy koi part reuse karna pary ga to ma usy ak function bana ka reuse karun gi multi time
 
 
-// H.W
-// Q1:
-function wellcom(name){
-    console.log("Wellcome:"+name );
-}
 
-wellcom("Malaika");
-wellcom("Ahmad");
+// function student(name){
+//     console.log("Hellow:" + name);
 
-// Q2:
+// }
 
-function square(num) {
-    console.log(num*num);
+// student("Malaika");
+// student("Aima");
+// student("Amina");
+// student("Emaan");
+
+
+// // H.W
+// // Q1:
+// function wellcom(name){
+//     console.log("Wellcome:"+name );
+// }
+
+// wellcom("Malaika");
+// wellcom("Ahmad");
+
+// // Q2:
+
+// function square(num) {
+//     console.log(num*num);
     
+// }
+
+// square(5);
+// square(10);
+// square(12);
+
+
+// let result = square(6);
+// console.log(result);
+
+
+function add(a,b){
+    return a+b;
 }
 
-square(5);
-square(10);
-square(12);
+
+console.log(add(6,8));
+console.log(add(2,5));
 
 
-let result = square(6);
-console.log(result);
+
+function multi(c,d){
+    return c*d;
+}
+console.log(multi(4,3));
+console.log(multi(10,10));

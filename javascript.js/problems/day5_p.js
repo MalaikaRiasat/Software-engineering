@@ -92,3 +92,7 @@ function square(num) {
 square(5);
 square(10);
 square(12);
+
+
+let result = square(6);
+console.log(result);

@@ -21,9 +21,21 @@
 
 
 
-let fruits= ["Apple","Banana", "Mango"];
-fruits[1]="Orange";
-fruits[3] = "banana";
-console.log(fruits);
+// let fruits= ["Apple","Banana", "Mango"];
+// fruits[1]="Orange";
+// fruits[3] = "banana";
+// console.log(fruits);
 
-console.log(fruits[2]);
+// console.log(fruits[2]);
+
+
+let fruits = ["Apple", "banana"];
+
+fruits.push("Mango");
+console.log(fruits);
+fruits.unshift("orange");
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
+fruits.pop();
+console.log(fruits);

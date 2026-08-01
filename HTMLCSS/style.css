@@ -1,19 +1,17 @@
 body{
     margin: 20px;
-    padding 0px;
+    padding: 0px;
 }
-.box{
-    border-radius: 20px;
-    justify-content:center;
-    border: 2px;
-    background-color: rgb(103, 187, 233);
-    height: 300px;
-    width: 150px;
-    margin: 20px;
-    padding: 10px;
-    box-sizing: border-box;
-    border:5px solid rgb(45, 18, 164);
-    box-shadow: 5px rgb(0, 0, 1);
+label{
+    color: rgb(6, 6, 83);
+}
 
+input{
+    color: darkgray;
 
+}
+
+button{
+    background: #d40b0b;
+    color: aliceblue;
 }

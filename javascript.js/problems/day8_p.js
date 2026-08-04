@@ -23,6 +23,8 @@ console.log("ram:",Laptop.ram);
 console.log("price:",Laptop.price);
 
 
+
+
 let teacher={
     name:"Ali",
     Subject:"javaScript",

@@ -36,7 +36,13 @@ for(let fruit of fruits){
 }
 
 let colors = ["Red", "Green", "Blue"];
-for(let color of colors);{
-    console.log
+for(let color of colors){
+    console.log(color);
 
 }
+
+let cities=["lahore","Karachi","Islamabad"]
+for(let city of cities){
+    console.log(city);
+}
+

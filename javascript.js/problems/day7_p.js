@@ -46,3 +46,13 @@ for(let city of cities){
     console.log(city);
 }
 
+let numbers=[10,20,30,40]
+for(let num of numbers){
+    console.log(num);
+}
+
+let skills=["HTML","CSS","JavaScript"];
+
+for(let skill of skills){
+    console.log("I am learning",skill);
+}

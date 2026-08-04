@@ -1,3 +1,5 @@
+const { ModuleGraph } = require("vite");
+
 // objects
 let Book ={
     title:"peer-e-kamel",
@@ -34,3 +36,37 @@ let teacher={
 console.log(teacher.name);
 console.log(teacher.Subject);
 console.log(teacher.Subjec);
+
+// update
+//delet
+//add new value
+// p1
+let mobile = {
+    brand:"Samsung",
+    model:"A54",
+    price:80000
+}
+
+mobile.price = 85000;
+
+mobile.storage = "128GB";
+
+delete mobile.model;
+
+console.log(mobile);
+
+// p2
+let book={
+    titel:"peer-e-kamel",
+    author:"Nimra Ahmad",
+}
+book.price=1750;
+book.author="Umera Ahmad";
+
+delete book.titel;
+
+console.log(book);
+
+
+//p3
+// add ho jay ga khud ki ya add to value ka concept ha

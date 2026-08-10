@@ -35,6 +35,10 @@ colours.splice(1,1);
 console.log(colours);
 
 //p2
+let numbers =[10,20,30,40,50];
+
+numbers.splice(2,2);
+console.log(numbers);
 
 
 

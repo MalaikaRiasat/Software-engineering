@@ -31,10 +31,11 @@
 
 // p1
 let colours =["Red","Green","Blue","Black"];
-colours.splice(1);
+colours.splice(1,1);
 console.log(colours);
 
 //p2
+
 
 
 

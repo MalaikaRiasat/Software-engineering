@@ -1,24 +1,37 @@
-import { useState } from "react";
-import Navbar from "./components/Navbar";
-import NotificationsPage from "./components/NotificationsPage";
-// import NetworkPage from "./components/NetworkPage";
+// import { useState } from "react";
+// import Navbar from "./components/Navbar";
+// import NotificationsPage from "./components/NotificationsPage";
+// // import NetworkPage from "./components/NetworkPage";
 
-export type TabKey = "notifications" | "network";
+// export type TabKey = "notifications" | "network";
 
-function App() {
-  const [activeTab, setActiveTab] = useState<TabKey>("notifications");
-  return (
-    <div className="min-h-screen bg-gray-100">
+// function App() {
+//   const [activeTab, setActiveTab] = useState<TabKey>("notifications");
+//   return (
+//     <div className="min-h-screen bg-gray-100">
 
-      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <main className="max-w-3xl mx-auto mt-6 px-4">
-        {activeTab === "notifications" && <NotificationsPage />}
-        {/* {activeTab === "network" && <NetworkPage />} */}
-      </main>
+//       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+//       <main className="max-w-3xl mx-auto mt-6 px-4">
+//         {activeTab === "notifications" && <NotificationsPage />}
+//         {/* {activeTab === "network" && <NetworkPage />} */}
+//       </main>
 
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
+// export default App;
 
+// src/App.tsx
+import { useState } from "react"; // Hook ko bulaya
 
-export default App;
+// function App() {
+//   // Hum yahan apne naye toys (components) banayenge
+//   return (
+//     <div style={{ padding: "20px", fontFamily: "Arial" }}>
+//       <h1> Practice</h1>
+//       {/* Ab yahan examples lagayenge */}
+//     </div>
+//   );
+// }
+
+// export default App;

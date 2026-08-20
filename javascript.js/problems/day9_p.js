@@ -104,12 +104,12 @@
 // let cities =["Lahore","Karachi","Islamabad","Multan"];
 // console.log(cities.indexOf("islamabad"));
 
-// // p3
-// let skills =["HTML","CSS","JavaScript","React"];
-// console.log(skills.indexOf("React"));
+// p3
+let skills =["HTML","CSS","JavaScript","React"];
+console.log(skills.indexOf("React"));
 
-// let colors =["Red","Green","Blue"];
-// console.log(colors.indexOf("Yellow"));
+let colors =["Red","Green","Blue"];
+console.log(colors.indexOf("Yellow"));
 
 
 

@@ -134,11 +134,11 @@ console.log(fruits.indexOf("Mango"));
 
 
 
-🔥 Challenge 2
-let numbers = [10, 20, 30, 40, 50];
-30 aur 40 delete karo.
-25 ko 10 aur 20 ke beech add karo.
-50 ka index find karo.
+// 🔥 Challenge 2
+// let numbers = [10, 20, 30, 40, 50];
+// 30 aur 40 delete karo.
+// 25 ko 10 aur 20 ke beech add karo.
+// 50 ka index find karo.
 
 let numbers = [10, 20, 30, 40, 50];
 numbers.splice(2,2);
